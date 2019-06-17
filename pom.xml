@@ -24,7 +24,10 @@ under the License.
 	<groupId>com.duma.flink</groupId>
 	<artifactId>awesome-flink</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>chapter-2-flink-streaming</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>AWESOME FLINK</name>
 	<url>http://www.duma.cnblogs.com</url>
