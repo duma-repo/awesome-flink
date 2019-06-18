@@ -5,7 +5,7 @@
 ```bash
 nc -l 9000
 ```
-修改`src/main/java/com/cnblogs/duma/streaming/starter/WindowWordCount.java` 或 `src/main/scala/com/cnblogs/duma/streaming/scala/starter/WindowWordCount.scala` 代码中连接 socket 的主机为你自己的 ip，以 Java 代码为例：
+修改`chapter-2-flink-streaming/src/main/java/com/cnblogs/duma/streaming/starter/WindowWordCount.java` 或 `chapter-2-flink-streaming/src/main/scala/com/cnblogs/duma/streaming/scala/starter/WindowWordCount.scala` 代码中连接 socket 的主机为你自己的 ip，以 Java 代码为例：
 ```java
 socketTextStream("192.168.29.132", 9000) // 修改 192.168.29.132 为你自己机器的ip
 ```
